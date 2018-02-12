@@ -1,0 +1,19 @@
+void setup()
+{
+size(480,120);
+smooth();
+}
+
+void draw()
+{
+strokeWeight(12);
+strokeJoin(ROUND); //圆形的转角画笔
+rect(40,25,70,70);
+strokeJoin(BEVEL);//锥形的转角笔
+rect(140,25,70,70);
+strokeCap(SQUARE);//方形的线
+line(270,25,340,95);
+strokeCap(ROUND);//圆形的线
+line(350,25,420,95);
+
+}
